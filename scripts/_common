@@ -7,7 +7,7 @@ extract_source() {
   rc_tarball="${DESTDIR}/agora.zip"
   sudo wget -q -O "$rc_tarball" "$AGORA_SOURCE_URL" \
     || ynh_die "Unable to download source tarball"
-  sudo unzip "$rc_tarball" -C "$DESTDIR" \
+  sudo unzip "$rc_tarball" "$DESTDIR" \
     || ynh_die "Unable to extract source tarball"
   sudo rm "$rc_tarball"
 }
