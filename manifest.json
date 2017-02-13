@@ -1,0 +1,54 @@
+{
+    "name": "Agora",
+    "id": "agora",
+    "packaging_format": 1,
+    "requirements": {
+        "yunohost": ">> 2.3.15"
+    },
+    "description": {
+        "fr": "Logiciel libre de collaboration et de création d'espace numérique"
+    },
+    "url": "https://www.agora-project.net/",
+    "license": "GPLv2",
+    "maintainer": {
+        "name": "frju365",
+        "email": "win10@tutanota.com"
+    },
+    "multi_instance": true,
+    "services": [
+        "nginx",
+        "php5-fpm"
+    ],
+    "arguments": {
+        "install" : [
+            {
+                "name": "domain",
+                "type": "domain",
+                "ask": {
+                    "en": "Choose a domain for Agora",
+                    "fr": "Choisissez un domaine pour Agora"
+                },
+                "example": "domain.org"
+            },
+            {
+                "name": "path",
+                "type": "path",
+                "ask": {
+                    "en": "Choose a path for Agora",
+                    "fr": "Choisissez un chemin pour Agora"
+                },
+                "example": "/agora",
+                "default": "/agora"
+            },
+            {
+                "name": "is_public",
+                "ask": {
+                    "en": "Is it a public Agora site ?",
+                    "fr": "Est-ce un site public ?"
+                },
+                "choices": ["Yes", "No"],
+                "default": "Yes"
+            }
+        ]
+    }
+}
