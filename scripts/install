@@ -31,6 +31,7 @@ source /usr/share/yunohost/helpers
 
 # Copy files to the right place
 final_path=/var/www/$app
+sud mkdir -p /var/www/$app
 extract_source
 
 # Files owned by root, www-data can just read
