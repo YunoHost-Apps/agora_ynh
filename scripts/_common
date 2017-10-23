@@ -1,4 +1,4 @@
 extract_source () {	# Télécharge la source, décompresse et copie dans $final_path
 	# Décompresse la source
-	sudo unzip ../sources/agora_project_3.2.2.zip /var/www/$app
+	sudo unzip ../sources/agora_project_3.2.2.zip -d /var/www/$app
 }
