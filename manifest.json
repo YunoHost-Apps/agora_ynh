@@ -8,12 +8,12 @@
     "version": "1.0~ynh1",
     "url": "https://www.agora-project.net/",
     "upstream": {
-        "license": "GPLv2",
+        "license": "GPL-2.0-only",
         "website": "https://www.agora-project.net",
         "admindoc": "https://www.agora-project.net/index.php?ctrl=offline&action=Documentation",
         "code": "https://github.com/xech/agora-project"
     },
-    "license": "GPLv2",
+    "license": "GPL-2.0-only",
     "maintainer": {
         "name": "frju365",
         "email": "win10@tutanota.com"
