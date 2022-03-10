@@ -3,6 +3,7 @@
     "id": "agora",
     "packaging_format": 1,
     "description": {
+        "en": "Free software for collaboration and creation of digital space",
         "fr": "Logiciel libre de collaboration et de création d'espace numérique"
     },
     "version": "1.0~ynh1",
