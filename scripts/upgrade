@@ -72,8 +72,14 @@ if [ "$upgrade_type" == "UPGRADE_APP" ]
 then
 	ynh_script_progression --message="Upgrading source files..."
 
+	tmpdir="$(mktemp -d)"
+	rsync -a "$final_path/DATAS" "$tmpdir/."
+	ynh_secure_remove --file="$final_path"
+
 	# Download, check integrity, uncompress and patch the source from app.src
-	ynh_setup_source --dest_dir="$final_path" --keep="DATAS/"
+	ynh_setup_source --dest_dir="$final_path"
+	rsync -a "$tmpdir/DATAS" "$final_path/."
+	ynh_secure_remove --file="$tmpdir"
 fi
 
 chmod 750 "$final_path"
