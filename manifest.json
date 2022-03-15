@@ -2,52 +2,66 @@
     "name": "Agora",
     "id": "agora",
     "packaging_format": 1,
-    "requirements": {
-        "yunohost": ">> 2.3.15"
-    },
     "description": {
+        "en": "Free software for collaboration and creation of digital space",
         "fr": "Logiciel libre de collaboration et de création d'espace numérique"
     },
+    "version": "1.0~ynh1",
     "url": "https://www.agora-project.net/",
-    "license": "GPLv2",
+    "upstream": {
+        "license": "GPL-2.0-only",
+        "website": "https://www.agora-project.net",
+        "admindoc": "https://www.agora-project.net/index.php?ctrl=offline&action=Documentation",
+        "code": "https://github.com/xech/agora-project"
+    },
+    "license": "GPL-2.0-only",
     "maintainer": {
         "name": "frju365",
         "email": "win10@tutanota.com"
     },
+    "requirements": {
+        "yunohost": ">= 4.3.0"
+    },
     "multi_instance": true,
     "services": [
         "nginx",
-        "php5-fpm"
+        "php7.3-fpm",
+        "mysql"
     ],
     "arguments": {
-        "install" : [
+        "install": [
             {
                 "name": "domain",
-                "type": "domain",
-                "ask": {
-                    "en": "Choose a domain for Agora",
-                    "fr": "Choisissez un domaine pour Agora"
-                },
-                "example": "domain.org"
+                "type": "domain"
             },
             {
                 "name": "path",
                 "type": "path",
-                "ask": {
-                    "en": "Choose a path for Agora",
-                    "fr": "Choisissez un chemin pour Agora"
-                },
                 "example": "/agora",
                 "default": "/agora"
             },
             {
                 "name": "is_public",
                 "type": "boolean",
-                "ask": {
-                    "en": "Is it a public application?",
-                    "fr": "Est-ce une application publique ?"
-                },
                 "default": true
+            },
+            {
+                "name": "language",
+                "type": "string",
+                "ask": {
+                    "en": "Choose the application language",
+                    "fr": "Choisissez la langue de l'application"
+                },
+                "choices": ["francais", "english", "espanol"],
+                "default": "francais"
+            },
+            {
+                "name": "admin",
+                "type": "user"
+            },
+            {
+                "name": "password",
+                "type": "password"
             }
         ]
     }
