@@ -16,18 +16,17 @@ license = "GPL-2.0-only"
 website = "https://www.agora-project.net"
 admindoc = "https://www.agora-project.net/index.php?ctrl=offline&action=Documentation"
 code = "https://github.com/xech/agora-project"
-cpe = " cpe:2.3:a:agora-project:agora-project"
-fund = "???" # FIXME: optional but recommended (or remove if irrelevant / not applicable). This is meant to be an URL where people can financially support this app, especially when its development is based on volunteers and/or financed by its community. YunoHost may later advertise it in the webadmin.
+cpe = "cpe:2.3:a:agora-project:agora-project"
 
 [integration]
 yunohost = ">= 4.3.0"
 architectures = "all"
 multi_instance = true
-ldap = "?" # FIXME: replace with true, false, or "not_relevant". Not to confuse with the "sso" key : the "ldap" key corresponds to wether or not a user *can* login on the app using its YunoHost credentials.
-sso = "?" # FIXME: replace with true, false, or "not_relevant". Not to confuse with the "ldap" key : the "sso" key corresponds to wether or not a user is *automatically logged-in* on the app when logged-in on the YunoHost portal.
-disk = "50M" # FIXME: replace with an **estimate** minimum disk requirement. e.g. 20M, 400M, 1G, ...
-ram.build = "50M" # FIXME: replace with an **estimate** minimum ram requirement. e.g. 50M, 400M, 1G, ...
-ram.runtime = "50M" # FIXME: replace with an **estimate** minimum ram requirement. e.g. 50M, 400M, 1G, ...
+ldap = false
+sso = false
+disk = "50M"
+ram.build = "120M"
+ram.runtime = "50M"
 
 [install]
     [install.domain]
@@ -60,6 +59,7 @@ ram.runtime = "50M" # FIXME: replace with an **estimate** minimum ram requiremen
     sha256 = "36fccd6946f5297d701bc2c0bab218030d58f264b00d651e272f88523ad15759"
 
     autoupdate.strategy = "latest_github_release"
+    autoupdate.asset = "tarball"
 
     [resources.system_user]
 
