@@ -1,0 +1,79 @@
+#:schema https://raw.githubusercontent.com/YunoHost/apps/master/schemas/manifest.v2.schema.json
+
+packaging_format = 2
+
+id = "agora"
+name = "Agora"
+description.en = "Free software for collaboration and creation of digital space"
+description.fr = "Logiciel libre de collaboration et de création d'espace numérique"
+
+version = "1.0~ynh1"
+
+maintainers = ["frju365"]
+
+[upstream]
+license = "GPL-2.0-only"
+website = "https://www.agora-project.net"
+admindoc = "https://www.agora-project.net/index.php?ctrl=offline&action=Documentation"
+code = "https://github.com/xech/agora-project"
+cpe = "cpe:2.3:a:agora-project:agora-project"
+
+[integration]
+yunohost = ">= 4.3.0"
+architectures = "all"
+multi_instance = true
+ldap = false
+sso = false
+disk = "50M"
+ram.build = "120M"
+ram.runtime = "50M"
+
+[install]
+    [install.domain]
+    type = "domain"
+
+    [install.path]
+    type = "path"
+    default = "/agora"
+
+    [install.init_main_permission]
+    type = "group"
+    default = "visitors"
+
+    [install.language]
+    ask.en = "Choose the application language"
+    ask.fr = "Choisissez la langue de l'application"
+    type = "select"
+    choices = ["francais", "english", "espanol"]
+    default = "francais"
+
+    [install.admin]
+    type = "user"
+
+    [install.password]
+    type = "password"
+
+[resources]
+    [resources.sources.main]
+    url = "https://codeload.github.com/xech/agora-project/tar.gz/e03ed276341c2785285e8fa026538c8449705ef3"
+    sha256 = "36fccd6946f5297d701bc2c0bab218030d58f264b00d651e272f88523ad15759"
+
+    autoupdate.strategy = "latest_github_release"
+    autoupdate.asset = "tarball"
+
+    [resources.system_user]
+
+    [resources.install_dir]
+
+    [resources.permissions]
+    main.url = "/"
+
+    [resources.apt]
+    packages = [
+        "php7.4-fpm",
+        "php7.4-imagick",
+        "mariadb-server",
+    ]
+
+    [resources.database]
+    type = "mysql"
