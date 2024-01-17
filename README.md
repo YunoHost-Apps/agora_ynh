@@ -18,7 +18,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 Create a workspace for a team with file management, contact, chat...
 
-**Shipped version:** 1.0~ynh2
+**Shipped version:** 23.10.3~ynh1
 ## Documentation and resources
 
 * Official app website: <https://www.agora-project.net>
