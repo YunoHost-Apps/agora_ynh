@@ -16,10 +16,10 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 ## Vue d’ensemble
 
-Créer un espace de travail pour une équipe avec gestion de fichier, contact, chat ...
+Créer un espace de travail pour une équipe avec gestion de fichier, contact, chat...
 
 
-**Version incluse :** 1.0~ynh1
+**Version incluse :** 1.0~ynh2
 ## Documentations et ressources
 
 * Site officiel de l’app : <https://www.agora-project.net>
