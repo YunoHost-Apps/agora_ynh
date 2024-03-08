@@ -18,15 +18,14 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 Créer un espace de travail pour une équipe avec gestion de fichier, contact, chat...
 
-
-**Version incluse :** 23.10.3~ynh1
+**Version incluse :** 24.2.1~ynh1
 ## Documentations et ressources
 
-* Site officiel de l’app : <https://www.agora-project.net>
-* Documentation officielle de l’admin : <https://www.agora-project.net/index.php?ctrl=offline&action=Documentation>
-* Dépôt de code officiel de l’app : <https://github.com/xech/agora-project>
-* YunoHost Store: <https://apps.yunohost.org/app/agora>
-* Signaler un bug : <https://github.com/YunoHost-Apps/agora_ynh/issues>
+- Site officiel de l’app : <https://www.agora-project.net>
+- Documentation officielle de l’admin : <https://www.agora-project.net/index.php?ctrl=offline&action=Documentation>
+- Dépôt de code officiel de l’app : <https://github.com/xech/agora-project>
+- YunoHost Store : <https://apps.yunohost.org/app/agora>
+- Signaler un bug : <https://github.com/YunoHost-Apps/agora_ynh/issues>
 
 ## Informations pour les développeurs
 

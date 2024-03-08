@@ -17,15 +17,14 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 ## Overview
 
 Create a workspace for a team with file management, contact, chat...
-
-**Shipped version:** 23.10.3~ynh1
+**Shipped version:** 24.2.1~ynh1
 ## Documentation and resources
 
-* Official app website: <https://www.agora-project.net>
-* Official admin documentation: <https://www.agora-project.net/index.php?ctrl=offline&action=Documentation>
-* Upstream app code repository: <https://github.com/xech/agora-project>
-* YunoHost Store: <https://apps.yunohost.org/app/agora>
-* Report a bug: <https://github.com/YunoHost-Apps/agora_ynh/issues>
+- Official app website: <https://www.agora-project.net>
+- Official admin documentation: <https://www.agora-project.net/index.php?ctrl=offline&action=Documentation>
+- Upstream app code repository: <https://github.com/xech/agora-project>
+- YunoHost Store: <https://apps.yunohost.org/app/agora>
+- Report a bug: <https://github.com/YunoHost-Apps/agora_ynh/issues>
 
 ## Developer info
 
