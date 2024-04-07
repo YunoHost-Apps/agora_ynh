@@ -52,6 +52,8 @@ ram.runtime = "50M"
 
     [install.admin]
     type = "user"
+    help.en = "The user's main email address will be used for login, not their username."
+    help.fr = "L'adresse email principale de ce compte sera utilisée pour la connexion, le nom de compte ne fonctionnera pas."
 
     [install.password]
     type = "password"
