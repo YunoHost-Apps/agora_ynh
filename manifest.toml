@@ -7,7 +7,7 @@ name = "Agora"
 description.en = "Software for collaboration and creation of digital space"
 description.fr = "Logiciel de collaboration et de création d'espace numérique"
 
-version = "23.10.3~ynh1"
+version = "24.4.1~ynh1"
 
 maintainers = ["frju365"]
 
@@ -52,14 +52,16 @@ ram.runtime = "50M"
 
     [install.admin]
     type = "user"
+    help.en = "The user's main email address will be used for login, not their username."
+    help.fr = "L'adresse email principale de ce compte sera utilisée pour la connexion, le nom de compte ne fonctionnera pas."
 
     [install.password]
     type = "password"
 
 [resources]
     [resources.sources.main]
-    url = "https://github.com/xech/agora-project/archive/refs/tags/23.10.3.tar.gz"
-    sha256 = "e4335a04d8f0e56982bba3cd0b1ae86f3d0887cb998bd22706dd78e75950520a"
+    url = "https://github.com/xech/agora-project/archive/refs/tags/24.4.1.tar.gz"
+    sha256 = "9e7ad4dd0352cbf7426a59e1ea92a10fc4cb7a418899e288c278c5aecde9e256"
 
     autoupdate.strategy = "latest_github_release"
     autoupdate.asset = "tarball"

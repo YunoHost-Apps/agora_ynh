@@ -55,10 +55,9 @@ ynh_local_curl "/?ctrl=offline&action=install&disconnect=1" \
     "db_password=$db_pwd" \
     "adminName=$admin_lastname" \
     "adminFirstName=$admin_firstname" \
-    "adminLogin=$admin" \
+    "adminMailLogin=$admin_mail" \
     "adminPassword=$password" \
     "adminPasswordVerif=$password" \
-    "adminMail=$admin_mail" \
     "spaceName=YunoHost" \
     "spaceDescription=YunoHost" \
     "spacePublic=0" \
