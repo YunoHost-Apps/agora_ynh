@@ -18,7 +18,7 @@ EZ editatu eskuz.
 
 Create a workspace for a team with file management, contact, chat...
 
-**Paketatutako bertsioa:** 24.4.3~ynh1
+**Paketatutako bertsioa:** 24.4.5~ynh1
 ## Dokumentazioa eta baliabideak
 
 - Aplikazioaren webgune ofiziala: <https://www.agora-project.net>
