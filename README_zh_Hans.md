@@ -18,7 +18,7 @@
 
 Create a workspace for a team with file management, contact, chat...
 
-**分发版本：** 24.4.5~ynh1
+**分发版本：** 24.6.0~ynh1
 ## 文档与资源
 
 - 官方应用网站： <https://www.agora-project.net>
