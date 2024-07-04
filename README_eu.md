@@ -5,7 +5,7 @@ EZ editatu eskuz.
 
 # Agora YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/agora.svg)](https://dash.yunohost.org/appci/app/agora) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/agora.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/agora.maintain.svg)
+[![Integrazio maila](https://dash.yunohost.org/integration/agora.svg)](https://ci-apps.yunohost.org/ci/apps/agora/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/agora.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/agora.maintain.svg)
 
 [![Instalatu Agora YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=agora)
 
@@ -18,7 +18,7 @@ EZ editatu eskuz.
 
 Create a workspace for a team with file management, contact, chat...
 
-**Paketatutako bertsioa:** 24.6.0~ynh1
+**Paketatutako bertsioa:** 24.6.2~ynh1
 ## Dokumentazioa eta baliabideak
 
 - Aplikazioaren webgune ofiziala: <https://www.agora-project.net>
