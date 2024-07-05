@@ -75,8 +75,8 @@ ram.runtime = "50M"
 
     [resources.apt]
     packages = [
-        "php7.4-fpm",
-        "php7.4-imagick",
+        "php8.3-fpm",
+        "php8.3-imagick",
         "mariadb-server",
     ]
 
