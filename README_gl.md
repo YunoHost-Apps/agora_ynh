@@ -18,7 +18,7 @@ NON debe editarse manualmente.
 
 Create a workspace for a team with file management, contact, chat...
 
-**Versión proporcionada:** 24.6.3~ynh1
+**Versión proporcionada:** 24.6.4~ynh1
 ## Documentación e recursos
 
 - Web oficial da app: <https://www.agora-project.net>
