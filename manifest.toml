@@ -4,8 +4,8 @@ packaging_format = 2
 
 id = "agora"
 name = "Agora"
-description.en = "Software for collaboration and creation of digital space"
-description.fr = "Logiciel de collaboration et de création d'espace numérique"
+description.en = "Collaboration and creation of digital space"
+description.fr = "Collaboration et création d'espace numérique"
 
 version = "24.8.1~ynh1"
 
