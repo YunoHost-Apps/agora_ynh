@@ -48,6 +48,7 @@ ynh_local_curl "/?ctrl=offline&action=install&disconnect=1" \
     "spaceName=YunoHost" \
     "spaceDescription=YunoHost" \
     "spacePublic=0" \
+    "spaceDiskLimit=1" \
     "ctrl=offline" \
     "action=install" \
     "formValidate=1" \
