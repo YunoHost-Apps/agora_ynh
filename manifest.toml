@@ -79,6 +79,7 @@ ram.runtime = "50M"
     packages = [
         "php8.3-fpm",
         "php8.3-imagick",
+        "php8.3-mysql",
         "mariadb-server",
     ]
 
