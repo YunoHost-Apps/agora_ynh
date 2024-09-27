@@ -18,7 +18,7 @@ No se debe editar a mano.
 
 Create a workspace for a team with file management, contact, chat...
 
-**Versión actual:** 24.8.2~ynh1
+**Versión actual:** 24.8.3~ynh1
 ## Documentaciones y recursos
 
 - Sitio web oficial: <https://www.agora-project.net>
@@ -29,7 +29,7 @@ Create a workspace for a team with file management, contact, chat...
 
 ## Información para desarrolladores
 
-Por favor enviar sus correcciones a la [`branch testing`](https://github.com/YunoHost-Apps/agora_ynh/tree/testing
+Por favor enviar sus correcciones a la [rama `testing`](https://github.com/YunoHost-Apps/agora_ynh/tree/testing).
 
 Para probar la rama `testing`, sigue asÍ:
 
