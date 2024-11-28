@@ -5,7 +5,9 @@
 
 # YunoHost 上的 Agora
 
-[![集成程度](https://dash.yunohost.org/integration/agora.svg)](https://ci-apps.yunohost.org/ci/apps/agora/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/agora.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/agora.maintain.svg)
+[![集成程度](https://apps.yunohost.org/badge/integration/agora)](https://ci-apps.yunohost.org/ci/apps/agora/)
+![工作状态](https://apps.yunohost.org/badge/state/agora)
+![维护状态](https://apps.yunohost.org/badge/maintained/agora)
 
 [![使用 YunoHost 安装 Agora](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=agora)
 
@@ -18,7 +20,7 @@
 
 Create a workspace for a team with file management, contact, chat...
 
-**分发版本：** 24.8.3~ynh1
+**分发版本：** 24.11.1~ynh1
 ## 文档与资源
 
 - 官方应用网站： <https://www.agora-project.net>

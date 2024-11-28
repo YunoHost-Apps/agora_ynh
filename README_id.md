@@ -5,7 +5,9 @@ Ini TIDAK boleh diedit dengan tangan.
 
 # Agora untuk YunoHost
 
-[![Tingkat integrasi](https://dash.yunohost.org/integration/agora.svg)](https://ci-apps.yunohost.org/ci/apps/agora/) ![Status kerja](https://ci-apps.yunohost.org/ci/badges/agora.status.svg) ![Status pemeliharaan](https://ci-apps.yunohost.org/ci/badges/agora.maintain.svg)
+[![Tingkat integrasi](https://apps.yunohost.org/badge/integration/agora)](https://ci-apps.yunohost.org/ci/apps/agora/)
+![Status kerja](https://apps.yunohost.org/badge/state/agora)
+![Status pemeliharaan](https://apps.yunohost.org/badge/maintained/agora)
 
 [![Pasang Agora dengan YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=agora)
 
@@ -18,7 +20,7 @@ Ini TIDAK boleh diedit dengan tangan.
 
 Create a workspace for a team with file management, contact, chat...
 
-**Versi terkirim:** 24.8.3~ynh1
+**Versi terkirim:** 24.11.1~ynh1
 ## Dokumentasi dan sumber daya
 
 - Website aplikasi resmi: <https://www.agora-project.net>
