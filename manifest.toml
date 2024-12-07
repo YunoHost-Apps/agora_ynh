@@ -7,7 +7,7 @@ name = "Agora"
 description.en = "Software for collaboration and creation of digital space"
 description.fr = "Logiciel de collaboration et de création d'espace numérique"
 
-version = "24.8.3~ynh1"
+version = "24.11.1~ynh1"
 
 maintainers = ["frju365"]
 
@@ -60,8 +60,8 @@ ram.runtime = "50M"
 
 [resources]
     [resources.sources.main]
-    url = "https://github.com/xech/agora-project/archive/refs/tags/24.8.3.tar.gz"
-    sha256 = "0de2a9c14b44a1e22e308efbf936e9deea97f259a40e8de49f7743f9813a4a94"
+    url = "https://github.com/xech/agora-project/archive/refs/tags/24.11.1.tar.gz"
+    sha256 = "98230c8d0371c588233a4f2fc326ea136165b70d3f7c3044edd3035c369bc182"
 
     autoupdate.strategy = "latest_github_release"
     autoupdate.asset = "tarball"
@@ -75,8 +75,8 @@ ram.runtime = "50M"
 
     [resources.apt]
     packages = [
-        "php7.4-fpm",
-        "php7.4-imagick",
+        "php8.3-fpm",
+        "php8.3-imagick",
         "mariadb-server",
     ]
 

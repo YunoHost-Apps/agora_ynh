@@ -5,7 +5,9 @@ It shall NOT be edited by hand.
 
 # Agora for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/agora.svg)](https://ci-apps.yunohost.org/ci/apps/agora/) ![Working status](https://ci-apps.yunohost.org/ci/badges/agora.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/agora.maintain.svg)
+[![Integration level](https://apps.yunohost.org/badge/integration/agora)](https://ci-apps.yunohost.org/ci/apps/agora/)
+![Working status](https://apps.yunohost.org/badge/state/agora)
+![Maintenance status](https://apps.yunohost.org/badge/maintained/agora)
 
 [![Install Agora with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=agora)
 
@@ -18,7 +20,7 @@ It shall NOT be edited by hand.
 
 Create a workspace for a team with file management, contact, chat...
 
-**Shipped version:** 24.8.3~ynh1
+**Shipped version:** 24.11.1~ynh1
 ## Documentation and resources
 
 - Official app website: <https://www.agora-project.net>
