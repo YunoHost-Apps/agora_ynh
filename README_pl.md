@@ -20,7 +20,7 @@ Nie powinno być ono edytowane ręcznie.
 
 Create a workspace for a team with file management, contact, chat...
 
-**Dostarczona wersja:** 24.11.1~ynh1
+**Dostarczona wersja:** 24.12.1~ynh1
 ## Dokumentacja i zasoby
 
 - Oficjalna strona aplikacji: <https://www.agora-project.net>
