@@ -21,7 +21,7 @@ Il NE doit PAS être modifié à la main.
 Créer un espace de travail pour une équipe avec gestion de fichier, contact, chat...
 
 
-**Version incluse :** 24.12.1~ynh1
+**Version incluse :** 25.1.0~ynh1
 ## Documentations et ressources
 
 - Site officiel de l’app : <https://www.agora-project.net>
