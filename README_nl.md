@@ -20,7 +20,7 @@ Hij mag NIET handmatig aangepast worden.
 
 Create a workspace for a team with file management, contact, chat...
 
-**Geleverde versie:** 24.12.1~ynh1
+**Geleverde versie:** 25.1.0~ynh1
 ## Documentatie en bronnen
 
 - Officiele website van de app: <https://www.agora-project.net>
