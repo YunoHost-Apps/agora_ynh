@@ -20,7 +20,7 @@
 
 Create a workspace for a team with file management, contact, chat...
 
-**Поставляемая версия:** 24.12.1~ynh1
+**Поставляемая версия:** 25.1.0~ynh1
 ## Документация и ресурсы
 
 - Официальный веб-сайт приложения: <https://www.agora-project.net>

@@ -20,7 +20,7 @@ Ini TIDAK boleh diedit dengan tangan.
 
 Create a workspace for a team with file management, contact, chat...
 
-**Versi terkirim:** 24.12.1~ynh1
+**Versi terkirim:** 25.1.0~ynh1
 ## Dokumentasi dan sumber daya
 
 - Website aplikasi resmi: <https://www.agora-project.net>
