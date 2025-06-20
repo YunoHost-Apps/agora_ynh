@@ -4,14 +4,14 @@ It shall NOT be edited by hand.
 -->
 
 <h1>
-  <img src="https://raw.githubusercontent.com/YunoHost/apps/master/logos/agora.png" width="32px" alt="Logo of Agora">
+  <img src="https://raw.githubusercontent.com/YunoHost/apps/main/logos/agora.png" width="32px" alt="Logo of Agora">
   Agora, packaged for YunoHost
 </h1>
 
 Software for collaboration and creation of digital space
 
 [![🌐 Official app website](https://img.shields.io/badge/Official_app_website-darkgreen?style=for-the-badge)](https://www.agora-project.net)
-![Version: 25.3.2~ynh1](https://img.shields.io/badge/Version-25.3.2~ynh1-rgba(0,150,0,1)?style=for-the-badge)
+[![Version: 25.6.0~ynh1](https://img.shields.io/badge/Version-25.6.0~ynh1-rgba(0,150,0,1)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/agora/)
 
 <div align="center">
 <a href="https://apps.yunohost.org/app/agora"><img height="100px" src="https://github.com/YunoHost/yunohost-artwork/raw/refs/heads/main/badges/neopossum-badges/badge_more_info_on_the_appstore.svg"/></a>
@@ -19,6 +19,8 @@ Software for collaboration and creation of digital space
 </div>
 
 ## 📦 Developer info
+
+[![Automatic tests level](https://apps.yunohost.org/badge/cilevel/agora)](https://ci-apps.yunohost.org/ci/apps/agora/)
 
 🛠️ Upstream Agora repository: <https://github.com/xech/agora-project>
 
