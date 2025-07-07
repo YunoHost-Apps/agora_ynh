@@ -7,7 +7,7 @@ name = "Agora"
 description.en = "Software for collaboration and creation of digital space"
 description.fr = "Logiciel de collaboration et de création d'espace numérique"
 
-version = "25.6.2~ynh1"
+version = "25.6.2~ynh2"
 
 maintainers = ["frju365"]
 
