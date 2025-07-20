@@ -7,7 +7,7 @@ name = "Agora"
 description.en = "Collaboration and creation of digital space"
 description.fr = "Collaboration et création d'espace numérique"
 
-version = "25.6.3~ynh1"
+version = "25.6.4~ynh1"
 
 maintainers = ["frju365"]
 
@@ -61,8 +61,8 @@ ram.runtime = "50M"
 
 [resources]
     [resources.sources.main]
-    url = "https://github.com/xech/agora-project/archive/refs/tags/25.6.3.tar.gz"
-    sha256 = "1449e0987ace1ef6c5cd2dc12489d112f8a6c07f69b61e98995be026f9454f41"
+    url = "https://github.com/xech/agora-project/archive/refs/tags/25.6.4.tar.gz"
+    sha256 = "18ef5477db66bb82f0f5f5517c4e8dfb0b4c0e7df272aba1f1d685aef01447b2"
 
     autoupdate.strategy = "latest_github_release"
     autoupdate.asset = "tarball"
