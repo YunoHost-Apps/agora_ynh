@@ -70,13 +70,13 @@ ram.runtime = "50M"
     url = "https://github.com/xech/agora-project/releases/download/25.12/INSTALL_agora-project_25.12.4.zip"
     sha256 = "5d7856ee32bea6fe4a77c8bc948a2d73449114c03c2b8b1c3c20f029f486a6b7"
     format = "zip"
-    in_subdir = true
+
 
     [resources.sources.update]
     url = "https://github.com/xech/agora-project/releases/download/25.12/UPDATE_agora-project_25.12.4.zip"
     sha256 = "de23f0e83ce55960ccaed98be3eeafb756dafc7bad62519b433f7dcfc0a35de8"
     format = "zip"
-    in_subdir = true
+
 
     [resources.system_user]
 
