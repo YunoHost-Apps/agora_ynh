@@ -6,11 +6,14 @@ source /usr/share/yunohost/helpers
 # INITIALIZE AND STORE SETTINGS
 #=================================================
 
+version=$(ynh_read_manifest version) 
+agora_version=${version%%~*}
 ynh_app_setting_set --key=php_upload_max_filesize --value=1000M
 
 admin_lastname=$(ynh_user_get_info --username="$admin" --key=lastname)
 admin_firstname=$(ynh_user_get_info --username="$admin" --key=firstname)
 admin_mail=$(ynh_user_get_info --username="$admin" --key=mail)
+
 
 #=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
@@ -53,6 +56,17 @@ ynh_local_curl "/?ctrl=offline&action=install&disconnect=1" \
     "formValidate=1" \
     "submit=submit"
 
+
+#=================================================
+# SETUP AGORA VERSION IN DB
+#=================================================
+#ynh_script_progression "Setting up agora version in DB..."
+
+#ynh_mysql_db_shell $db_name <<< "UPDATE ap_agora
+#SET version_agora='$agora_version',
+#    name='Omnispace / Agora-Project',
+#    dateUpdateDb=NOW() 
+#WHERE 1;"
 #=================================================
 # END OF SCRIPT
 #=================================================
