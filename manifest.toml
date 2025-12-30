@@ -60,8 +60,8 @@ ram.runtime = "50M"
 
 [resources]
     [resources.sources.main]
-    url = "https://github.com/otm33GH/agora-project/archive/refs/tags/25.12.4.tar.gz"
-    sha256 = "a8c24beb83f6d1bb8bb1a50fcc5a2ac857e5ec01f636e9b41db8b2a4c451a394"
+    url = "https://github.com/xech/agora-project/archive/refs/tags/25.12.tar.gz"
+    sha256 = "8c735b6c285dfb17382de10f57d70502dfab8d54d8d0cd9d916dcd0111962e25"
 
     autoupdate.strategy = "latest_github_release"
     autoupdate.asset = "tarball"
