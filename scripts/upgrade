@@ -14,7 +14,7 @@ ynh_app_setting_set_default --key=php_upload_max_filesize --value=1000M
 #=================================================
 ynh_script_progression "Upgrading source files..."
 
-ynh_setup_source --source_id=install --dest_dir="$install_dir" --full_replace --keep="DATAS"
+ynh_setup_source --source_id=install --dest_dir="$install_dir" --full_replace=1 --keep="DATAS"
 
 #=================================================
 # REAPPLY SYSTEM CONFIGURATIONS
