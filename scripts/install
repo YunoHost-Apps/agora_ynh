@@ -12,12 +12,15 @@ admin_lastname=$(ynh_user_get_info --username="$admin" --key=lastname)
 admin_firstname=$(ynh_user_get_info --username="$admin" --key=firstname)
 admin_mail=$(ynh_user_get_info --username="$admin" --key=mail)
 
+
 #=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
 #=================================================
 ynh_script_progression "Setting up source files..."
 
 ynh_setup_source --dest_dir="$install_dir"
+ynh_setup_source --source_id=install --dest_dir="$install_dir/app"
+
 
 #=================================================
 # SYSTEM CONFIGURATION
@@ -52,6 +55,7 @@ ynh_local_curl "/?ctrl=offline&action=install&disconnect=1" \
     "action=install" \
     "formValidate=1" \
     "submit=submit"
+
 
 #=================================================
 # END OF SCRIPT
