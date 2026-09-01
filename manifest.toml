@@ -19,7 +19,7 @@ code = "https://github.com/xech/agora-project"
 cpe = "cpe:2.3:a:agora-project:agora-project"
 
 [integration]
-yunohost = ">= 12.1.38"
+yunohost = ">= 12.1.40"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
@@ -88,9 +88,9 @@ ram.runtime = "50M"
 
     [resources.apt]
     packages = [
-        "php8.3-fpm",
-        "php8.3-imagick",
-        "php8.3-mysql",
+        "php8.5-fpm",
+        "php8.5-imagick",
+        "php8.5-mysql",
         "mariadb-server",
     ]
 
